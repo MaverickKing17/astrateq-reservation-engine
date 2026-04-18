@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import FeatureGrid from './components/FeatureGrid';
 import SafetyLayer from './components/SafetyLayer';
+import ImageGallery from './components/ImageGallery';
 import Roadmap from './components/Roadmap';
 import VehicleSpecs from './components/VehicleSpecs';
 import CanadianEngineering from './components/CanadianEngineering';
@@ -28,6 +29,7 @@ export default function App() {
       <main>
         <Hero />
         <FeatureGrid />
+        <ImageGallery />
         <SafetyLayer />
         <Roadmap />
         <VehicleSpecs />
