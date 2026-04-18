@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
+import SignupForm from './SignupForm';
 
 export default function FinalCTA() {
   return (
@@ -18,13 +19,8 @@ export default function FinalCTA() {
             Protect What <br /><span className="font-semibold italic">Matters Most.</span>
           </h2>
           
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-8">
-            <button className="bg-white text-brand-bg px-14 py-6 rounded-lg font-bold text-sm tracking-widest uppercase transition-all hover:opacity-90 shadow-[0_0_30px_rgba(255,255,255,0.1)]">
-              Reserve Batch 01
-            </button>
-            <button className="text-brand-text-dim hover:text-white font-bold transition-colors text-sm uppercase tracking-widest">
-              Early Access List
-            </button>
+          <div className="max-w-md mx-auto mt-12">
+            <SignupForm />
           </div>
           
           <p className="mt-16 text-[10px] uppercase tracking-[0.3em] font-bold text-brand-text-dim">
