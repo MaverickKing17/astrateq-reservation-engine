@@ -9,6 +9,7 @@ import Hero from './components/Hero';
 import FeatureGrid from './components/FeatureGrid';
 import SafetyLayer from './components/SafetyLayer';
 import Roadmap from './components/Roadmap';
+import VehicleSpecs from './components/VehicleSpecs';
 import CanadianEngineering from './components/CanadianEngineering';
 import TrustSection from './components/TrustSection';
 import FAQSection from './components/FAQSection';
@@ -29,6 +30,7 @@ export default function App() {
         <FeatureGrid />
         <SafetyLayer />
         <Roadmap />
+        <VehicleSpecs />
         <CanadianEngineering />
         <TrustSection />
         <FAQSection />
